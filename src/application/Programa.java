@@ -13,7 +13,7 @@ public class Programa {
         GerenciadorDeContatos GerenciadorDeContatos  = new GerenciadorDeContatos();
         Scanner scanner = new Scanner(System.in);
 
-        int opcao = 0;
+        int opcao;
         do {
             System.out.println("\nAgenda - Escolha uma opção:");
             System.out.println("1. Adicionar contato pessoal");
